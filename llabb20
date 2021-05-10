@@ -10,7 +10,6 @@ namespace reversalTheString
     {
         static void Main(string[] args)
         {
-            string s = "Привет, мир!";
             s = Console.ReadLine();
             char[] sReverse = s.ToCharArray();
             Array.Reverse(sReverse);
